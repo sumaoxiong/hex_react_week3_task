@@ -216,7 +216,7 @@ function App() {
     <>
       {!isAuth ? (
         <div className="container login">
-          <h1>請先登入(week3_task)</h1>
+          <h1>請先登入</h1>
           <form className="form-floating" onSubmit={(e) => onSubmit(e)}>
             <div className="form-floating mb-3">
               <input
